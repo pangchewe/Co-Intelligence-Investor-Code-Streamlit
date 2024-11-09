@@ -7,7 +7,7 @@ import google.generativeai as genai
 from string import Template
 
 # Streamlit app starts here
-st.title("Gemini Response Viewer")
+st.title("SET Stock Analyzer(Gemini)")
 
 # User input for API keys
 st.sidebar.header("API Keys")
@@ -18,6 +18,14 @@ TYPHOON_API_KEY = st.sidebar.text_input("Enter your TYPHOON API Key", type="pass
 if not GEMINI_API_KEY or not TYPHOON_API_KEY:
     st.error("Please enter your GEMINI API Key and TYPHOON API Key in the sidebar.")
     st.stop()
+# Credit Section
+st.markdown("---")
+st.markdown(
+    """
+    **Credits**  
+    This application was developed with insights from [Pang (QuantCorner)](https://www.linkedin.com/in/dhouch/) and [P.Prem(DataKarate)](https://web.facebook.com/datakarate/?_rdc=1&_rdr#).
+    """
+)
 
 # Configure Google Gemini
 genai.configure(api_key=GEMINI_API_KEY)
