@@ -25,9 +25,9 @@ st.markdown(
     """
     **Credits**  
     This application was developed by Pang (QuantCorner)([QuantCorner](https://www.linkedin.com/in/dhouch/)), with special thanks to:
-    - **AJ.Pat** for knowledge base ([InvestIdea](https://web.facebook.com/investidea.in.th))
-    - **P.Prem** for coding expertise ([DataKarate](https://web.facebook.com/datakarate/?_rdc=1&_rdr))
-    - **P.Nut** for mentorship ([QuantCorner](https://web.facebook.com/quantcornerthailand))
+    - [**AJ.Pat**InvestIdea](https://web.facebook.com/investidea.in.th) for knowledge base 
+    - [**P.Prem**DataKarate](https://web.facebook.com/datakarate/?_rdc=1&_rdr) for coding expertise 
+    - [**P.Nut**QuantCorner](https://web.facebook.com/quantcornerthailand) for mentorship 
     """
 )
 
