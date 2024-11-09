@@ -16,7 +16,9 @@ TYPHOON_API_KEY = st.sidebar.text_input("Enter your TYPHOON API Key", type="pass
 
 # Check if API keys are provided
 if not GEMINI_API_KEY or not TYPHOON_API_KEY:
-    st.error("Please enter your GEMINI API Key and TYPHOON API Key in the sidebar.")
+    st.error("Please enter your GEMINI API Key and TYPHOON API Key in the sidebar.
+    Gemini API  : https://aistudio.google.com/app/apikey?_gl=1*byxdvo*_ga*MjA5MzA1NjU0NS4xNzE4Njg2OTA3*_ga_P1DBVKWT6V*MTczMTE3MDIwOS42LjAuMTczMTE3MDIwOS42MC4wLjE5MzA5ODcyODU.
+    Typhoon API : https://opentyphoon.ai/app/api-key")
     st.stop()
 # Credit Section
 st.markdown("---")
