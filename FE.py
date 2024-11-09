@@ -20,10 +20,14 @@ if not GEMINI_API_KEY or not TYPHOON_API_KEY:
     st.stop()
 # Credit Section
 st.markdown("---")
+st.markdown("---")
 st.markdown(
     """
     **Credits**  
-    This application was developed with insights from [Pang (QuantCorner)](https://www.linkedin.com/in/dhouch/), knowledge base from [AJ.Pat (investidea.in.th)](https://web.facebook.com/investidea.in.th), coding from [P.Prem(DataKarate)](https://web.facebook.com/datakarate/?_rdc=1&_rdr#) and mentor from [P.Nut(QuantCorner)](https://web.facebook.com/quantcornerthailand).
+    This application was developed by Pang (QuantCorner)([QuantCorner](https://www.linkedin.com/in/dhouch/)), with special thanks to:
+    - **AJ.Pat** for knowledge base ([InvestIdea](https://web.facebook.com/investidea.in.th))
+    - **P.Prem** for coding expertise ([DataKarate](https://web.facebook.com/datakarate/?_rdc=1&_rdr))
+    - **P.Nut** for mentorship ([QuantCorner](https://web.facebook.com/quantcornerthailand))
     """
 )
 
