@@ -23,7 +23,7 @@ st.markdown("---")
 st.markdown(
     """
     **Credits**  
-    This application was developed with insights from [Pang (QuantCorner)](https://www.linkedin.com/in/dhouch/),knowledge base from [AJ.Pat (investidea.in.th)](https://web.facebook.com/investidea.in.th),coding from [P.Prem(DataKarate)](https://web.facebook.com/datakarate/?_rdc=1&_rdr#) and mentor from [P.Nut(QuantCorner)](https://web.facebook.com/quantcornerthailand).
+    This application was developed with insights from [Pang (QuantCorner)](https://www.linkedin.com/in/dhouch/), knowledge base from [AJ.Pat (investidea.in.th)](https://web.facebook.com/investidea.in.th), coding from [P.Prem(DataKarate)](https://web.facebook.com/datakarate/?_rdc=1&_rdr#) and mentor from [P.Nut(QuantCorner)](https://web.facebook.com/quantcornerthailand).
     """
 )
 
