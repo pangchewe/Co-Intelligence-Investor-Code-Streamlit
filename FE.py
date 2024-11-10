@@ -279,7 +279,7 @@ prompt7 = template.safe_substitute(
 2.3 บริษัทควรขยายสาขา ขยายโรงงานอย่างต่อเนื่องให้สอดคล้องกับอุตสาหกรรม
 """,
 )
-prompt7 = template.safe_substitute(
+prompt8 = template.safe_substitute(
     SYMBOL=SYMBOL,
     sheet=sheet_prompt,
     business_type=business_type,
@@ -295,7 +295,7 @@ prompt7 = template.safe_substitute(
 2.5.2 อัตรากำไรลดลง จากการมีรายจ่ายเพื่อการเติบโตเพิ่มแต่รายได้ไม่โตตาม
 """,
 )
-prompt7 = template.safe_substitute(
+prompt9 = template.safe_substitute(
     SYMBOL=SYMBOL,
     sheet=sheet_prompt,
     business_type=business_type,
@@ -319,6 +319,8 @@ output4 = get_gemini_completion(prompt4)
 output5 = get_gemini_completion(prompt5)
 output6 = get_gemini_completion(prompt6)
 output7 = get_gemini_completion(prompt7)
+output8 = get_gemini_completion(prompt8)
+output9 = get_gemini_completion(prompt9)
 
 # Display the business type
 st.subheader(f"Business Type for {SYMBOL}:")
@@ -338,3 +340,5 @@ st.markdown(output4)
 st.markdown(output5)
 st.markdown(output6)
 st.markdown(output7)
+st.markdown(output8)
+st.markdown(output9)
